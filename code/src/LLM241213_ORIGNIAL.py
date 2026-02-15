@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 import geopandas as gpd
 import pandas as pd
 import numpy as np
@@ -108,4 +108,3 @@ print(high_risk_data2[['NODE_ID', 'safety_suggestion']].head())
         
         
     
-

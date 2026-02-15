@@ -1,0 +1,6 @@
+*.py text eol=lf working-tree-encoding=UTF-8
+*.md text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.xlsx -text
+*.ipynb -text

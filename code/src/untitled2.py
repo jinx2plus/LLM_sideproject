@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 import pandas as pd
 import numpy as np
 import google.generativeai as genai
@@ -95,4 +95,3 @@ def generate_safety_improvement_suggestion(row):
 merged_data['Safety_Suggestion'] = merged_data.apply(generate_safety_improvement_suggestion, axis=1)
 
 print(merged_data[['NODE_ID', 'Safety_Suggestion']].head())
-
